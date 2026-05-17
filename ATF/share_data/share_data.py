@@ -17,10 +17,10 @@ class ShareData:
         logger.info("Starting browser")
         self.playwright = sync_playwright().start()
 
+        is_ci = os.getenv("CI") == "true"
         self.browser = self.playwright.chromium.launch(
-            
-            headless=True,
-            args=["--start-maximized"]
+            headless=is_ci,
+            args=[] if is_ci else ["--start-maximized"]
         )
 
         self.context = self.browser.new_context()
