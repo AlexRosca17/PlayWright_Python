@@ -1,3 +1,5 @@
+import pytest
+
 from helper.data_loader import load_test_data
 from pages.common_page import CommonPage
 from pages.home_page import HomePage
@@ -8,6 +10,7 @@ import allure
 class Test_Webtable(ShareData):
 
     @allure.tag("Regression")
+    @pytest.mark.Regression
     def test_add_new_entry(self):
         data = load_test_data("webtable_data.json", "1")
         home_page = HomePage(self.page)
@@ -24,6 +27,7 @@ class Test_Webtable(ShareData):
         webtable_page.verify_cell_values(data)
 
     @allure.tag("Regression")
+    @pytest.mark.Smoke
     def test_delete_entry(self):
         home_page = HomePage(self.page)
         home_page.click_elements()
