@@ -7,7 +7,7 @@ from pages.webtable_page import WebTablePage
 from share_data.share_data import ShareData
 import allure
 
-class Test_Webtable(ShareData):
+class TestWebtable(ShareData):
 
     @allure.tag("Regression")
     @pytest.mark.Regression

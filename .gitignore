@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Allure
+ATF/reports/
+
+# Playwright
+ATF/traces/
+
+# Logs
+ATF/test_run.log
+
+# VSCode
+.vscode/
