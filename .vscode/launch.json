@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pytest: ATF",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["tests/", "-v", "-n", "auto"],
+            "cwd": "${workspaceFolder}/ATF",
+            "justMyCode": true
+        }
+    ]
+}

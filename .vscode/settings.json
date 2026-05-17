@@ -1,0 +1,19 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUntypedFunctionDecorator": "none",
+        "reportUntypedClassDecorator": "none",
+        "reportUnknownMemberType": "none",
+        "reportUnknownVariableType": "none"
+    },
+    "python.analysis.extraPaths": ["ATF"],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests",
+        "-n",
+        "auto",
+        "--alluredir=reports/allure"
+    ],
+    "python.testing.cwd": "${workspaceFolder}/ATF",
+    "python.testing.unittestEnabled": false
+}

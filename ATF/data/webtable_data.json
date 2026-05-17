@@ -1,0 +1,18 @@
+{
+    "1": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john@test.com",
+        "age": "30",
+        "salary": "50000",
+        "department": "Engineering"
+    },
+    "2": {
+        "first_name": "Maria",
+        "last_name": "Pop",
+        "email": "maria@test.com",
+        "age": "25",
+        "salary": "40000",
+        "department": "HR"
+    }
+}

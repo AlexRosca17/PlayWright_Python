@@ -1,0 +1,18 @@
+[32mINFO    [0m share_data.share_data:share_data.py:14 ============================================================
+[32mINFO    [0m share_data.share_data:share_data.py:15 START TEST: test_add_new_entry
+[32mINFO    [0m share_data.share_data:share_data.py:16 ============================================================
+[32mINFO    [0m share_data.share_data:share_data.py:17 Starting browser
+[32mINFO    [0m share_data.share_data:share_data.py:32 Navigated to https://demoqa.com
+[32mINFO    [0m helper.elements_methods:elements_methods.py:13 Clicking element: (//*[@class='card-body'])[1]
+[32mINFO    [0m helper.elements_methods:elements_methods.py:13 Clicking element: //*[@href='/webtables']
+[32mINFO    [0m helper.elements_methods:elements_methods.py:13 Clicking element: //*[@id='addNewRecordButton']
+[32mINFO    [0m helper.elements_methods:elements_methods.py:17 Filling element: //*[@id='firstName'] with value: John
+[32mINFO    [0m helper.elements_methods:elements_methods.py:17 Filling element: //*[@id='lastName'] with value: Doe
+[32mINFO    [0m helper.elements_methods:elements_methods.py:17 Filling element: //*[@id='userEmail'] with value: john@test.com
+[32mINFO    [0m helper.elements_methods:elements_methods.py:17 Filling element: //*[@id='age'] with value: 30
+[32mINFO    [0m helper.elements_methods:elements_methods.py:17 Filling element: //*[@id='salary'] with value: 50000
+[32mINFO    [0m helper.elements_methods:elements_methods.py:17 Filling element: //*[@id='department'] with value: Engineering
+[32mINFO    [0m helper.elements_methods:elements_methods.py:13 Clicking element: //*[@id='submit']
+[32mINFO    [0m share_data.share_data:share_data.py:35 Closing browser
+[32mINFO    [0m share_data.share_data:share_data.py:41 END TEST: test_add_new_entry
+[32mINFO    [0m share_data.share_data:share_data.py:42 ============================================================

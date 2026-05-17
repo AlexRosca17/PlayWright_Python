@@ -1,0 +1,18 @@
+2026-05-18 01:50:16,028 - [23944] - INFO - ============================================================
+2026-05-18 01:50:16,029 - [23944] - INFO - START TEST: test_add_new_entry
+2026-05-18 01:50:16,029 - [23944] - INFO - ============================================================
+2026-05-18 01:50:16,029 - [23944] - INFO - Starting browser
+2026-05-18 01:50:18,478 - [23944] - INFO - Navigated to https://demoqa.com
+2026-05-18 01:50:18,480 - [23944] - INFO - Clicking element: (//*[@class='card-body'])[1]
+2026-05-18 01:50:18,684 - [23944] - INFO - Clicking element: //*[@href='/webtables']
+2026-05-18 01:50:18,988 - [23944] - INFO - Clicking element: //*[@id='addNewRecordButton']
+2026-05-18 01:50:19,498 - [23944] - INFO - Filling element: //*[@id='firstName'] with value: John
+2026-05-18 01:50:19,795 - [23944] - INFO - Filling element: //*[@id='lastName'] with value: Doe
+2026-05-18 01:50:19,935 - [23944] - INFO - Filling element: //*[@id='userEmail'] with value: john@test.com
+2026-05-18 01:50:20,016 - [23944] - INFO - Filling element: //*[@id='age'] with value: 30
+2026-05-18 01:50:20,068 - [23944] - INFO - Filling element: //*[@id='salary'] with value: 50000
+2026-05-18 01:50:20,531 - [23944] - INFO - Filling element: //*[@id='department'] with value: Engineering
+2026-05-18 01:50:20,595 - [23944] - INFO - Clicking element: //*[@id='submit']
+2026-05-18 01:50:21,290 - [23944] - INFO - Closing browser
+2026-05-18 01:50:22,189 - [23944] - INFO - END TEST: test_add_new_entry
+2026-05-18 01:50:22,190 - [23944] - INFO - ============================================================

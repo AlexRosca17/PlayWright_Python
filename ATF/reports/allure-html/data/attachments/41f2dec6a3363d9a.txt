@@ -1,0 +1,11 @@
+[32mINFO    [0m share_data.share_data:share_data.py:14 ============================================================
+[32mINFO    [0m share_data.share_data:share_data.py:15 START TEST: test_delete_entry
+[32mINFO    [0m share_data.share_data:share_data.py:16 ============================================================
+[32mINFO    [0m share_data.share_data:share_data.py:17 Starting browser
+[32mINFO    [0m share_data.share_data:share_data.py:32 Navigated to https://demoqa.com
+[32mINFO    [0m helper.elements_methods:elements_methods.py:13 Clicking element: (//*[@class='card-body'])[1]
+[32mINFO    [0m helper.elements_methods:elements_methods.py:13 Clicking element: //*[@href='/webtables']
+[32mINFO    [0m helper.elements_methods:elements_methods.py:13 Clicking element: [id='delete-record-3']
+[32mINFO    [0m share_data.share_data:share_data.py:35 Closing browser
+[32mINFO    [0m share_data.share_data:share_data.py:41 END TEST: test_delete_entry
+[32mINFO    [0m share_data.share_data:share_data.py:42 ============================================================
