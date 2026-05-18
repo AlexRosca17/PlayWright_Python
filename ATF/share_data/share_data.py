@@ -1,6 +1,7 @@
 import os
 from playwright.sync_api import sync_playwright
 from helper.logger import get_logger
+from helper.constants import Constants
 
 logger = get_logger(__name__)
 
@@ -29,8 +30,8 @@ class ShareData:
         self.page = self.context.new_page()
         self.page.set_viewport_size({"width": 1920, "height": 1080})
 
-        self.page.goto("https://demoqa.com")
-        logger.info("Navigated to https://demoqa.com")
+        self.page.goto(Constants.BASE_URL)
+        logger.info(f"Navigated to {Constants.BASE_URL}")
 
     def teardown_method(self):
         logger.info("Closing browser")

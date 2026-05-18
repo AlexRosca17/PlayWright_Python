@@ -1,5 +1,6 @@
 import pytest
 
+from helper.constants import Constants
 from helper.data_loader import load_test_data
 from pages.common_page import CommonPage
 from pages.home_page import HomePage
@@ -19,7 +20,7 @@ class TestWebtable(ShareData):
         common_page = CommonPage(self.page)
         common_page.click_web_tables()
 
-        assert self.page.url == "https://demoqa.com/webtables"
+        assert self.page.url == Constants.WEBTABLE_URL
 
         webtable_page = WebTablePage(self.page)
         webtable_page.click_add_button()
@@ -35,7 +36,7 @@ class TestWebtable(ShareData):
         common_page = CommonPage(self.page)
         common_page.click_web_tables()
 
-        assert self.page.url == "https://demoqa.com/webtables"
+        assert self.page.url == Constants.WEBTABLE_URL
 
         webtable_page = WebTablePage(self.page)
         webtable_page.click_delete_button()
