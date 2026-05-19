@@ -1,0 +1,18 @@
+{
+    "1": {
+        "userId": "placeholder",
+        "collectionOfIsbns": [
+            {
+                "isbn": "9781449365035"
+            }
+        ]
+    },
+    "2": {
+        "userId": "placeholder",
+        "collectionOfIsbns": [
+            {
+                "isbn": "9781491904244"
+            }
+        ]
+    }
+}

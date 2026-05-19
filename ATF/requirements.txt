@@ -1,5 +1,6 @@
 pytest
 pytest-playwright
 pytest-xdist
+pytest-order
 allure-pytest
 playwright
