@@ -4,3 +4,5 @@ pytest-xdist
 pytest-order
 allure-pytest
 playwright
+pydantic
+requests

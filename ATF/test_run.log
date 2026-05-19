@@ -1,6 +1,6 @@
-2026-05-20 01:11:25,192 - [23324] - INFO - Navigated to https://demoqa.com/
-2026-05-20 01:11:25,194 - [23324] - INFO - Clicking element: (//*[@class='card-body'])[6]
-2026-05-20 01:11:27,314 - [23324] - INFO - Clicking element: //*[@id='login']
-2026-05-20 01:11:27,613 - [23324] - INFO - Filling element: [id='userName'] with value: user_6518f2fb
-2026-05-20 01:11:27,636 - [23324] - INFO - Filling element: [id='password'] with value: Test123!@
-2026-05-20 01:11:27,655 - [23324] - INFO - Clicking element: [id='login']
+2026-05-20 01:18:57,169 - [19892] - INFO - Navigated to https://demoqa.com/
+2026-05-20 01:18:57,171 - [19892] - INFO - Clicking element: (//*[@class='card-body'])[6]
+2026-05-20 01:18:57,482 - [19892] - INFO - Clicking element: //*[@id='login']
+2026-05-20 01:18:57,843 - [19892] - INFO - Filling element: [id='userName'] with value: user_886e88b7
+2026-05-20 01:18:57,967 - [19892] - INFO - Filling element: [id='password'] with value: Test123!@
+2026-05-20 01:18:57,992 - [19892] - INFO - Clicking element: [id='login']
