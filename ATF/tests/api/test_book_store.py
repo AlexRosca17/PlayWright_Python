@@ -1,4 +1,5 @@
 import uuid
+import allure
 import pytest
 from playwright.sync_api import Page
 from api.client.client import Client
@@ -13,7 +14,7 @@ from pages.home_page import HomePage
 from pages.login_page import LoginPage
 
 
-
+@allure.tag("api")
 class TestBookStore():
     username = f"user_{uuid.uuid4().hex[:8]}"
 
