@@ -12,7 +12,7 @@ on:
           - all
           - Regression
           - Smoke
-          - api
+          - API
 
 jobs:
   test:

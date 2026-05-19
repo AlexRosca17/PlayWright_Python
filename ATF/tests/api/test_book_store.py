@@ -14,11 +14,12 @@ from pages.home_page import HomePage
 from pages.login_page import LoginPage
 
 
-@allure.tag("api")
 class TestBookStore():
     username = f"user_{uuid.uuid4().hex[:8]}"
 
     @pytest.mark.xdist_group("bookstore")
+    @allure.tag("api")
+    @pytest.mark.API
     def test_book_store(self):
         client = Client()
         data_account = load_test_data("account.json", "1")
@@ -45,6 +46,8 @@ class TestBookStore():
         print(response_get_books_object.books)
     
     @pytest.mark.xdist_group("bookstore")
+    @allure.tag("api")
+    @pytest.mark.API
     def test_book_store_account_validator(self, browser_page: Page):
         home_page = HomePage(browser_page)
         home_page.click_book_store()
