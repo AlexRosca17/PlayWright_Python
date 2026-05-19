@@ -36,9 +36,9 @@ jobs:
         run: |
           cd ATF
           if [ "${{ github.event.inputs.tag }}" = "all" ] || [ -z "${{ github.event.inputs.tag }}" ]; then
-            pytest tests/ -v --alluredir=reports/allure
+            pytest tests/ -n auto
           else
-            pytest tests/ -v --alluredir=reports/allure -m "${{ github.event.inputs.tag }}"
+            pytest tests/ -n auto -m "${{ github.event.inputs.tag }}"
           fi
 
       - name: Upload Allure results
