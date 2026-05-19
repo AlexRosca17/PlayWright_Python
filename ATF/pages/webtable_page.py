@@ -1,7 +1,7 @@
 from typing import Any
 from helper.elements_methods import ElementsMethods
 from playwright.sync_api import Page
-from elements.web_table_elements.webtable_locators import WebTableLocators
+from locators.webtable_locators import WebTableLocators
 
 class WebTablePage(ElementsMethods, WebTableLocators):
 

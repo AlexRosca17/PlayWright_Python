@@ -1,11 +1,9 @@
 from playwright.sync_api import Page
 from helper.elements_methods import ElementsMethods
+from locators.homepage_locators import HomePageLocators
 
 
-class HomePage(ElementsMethods):
-
-    ELEMENTS = "(//*[@class='card-body'])[1]"
-    BOOK_STORE_APPLICATION = "(//*[@class='card-body'])[6]"
+class HomePage(ElementsMethods, HomePageLocators):
 
     def __init__(self, page: Page):
         super().__init__(page)

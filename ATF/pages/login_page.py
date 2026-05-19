@@ -1,7 +1,7 @@
 from helper.elements_methods import ElementsMethods
-from elements.login_elements.login_elements import LoginElements
+from locators.login_locators import LoginLocators
 
-class LoginPage(ElementsMethods, LoginElements):
+class LoginPage(ElementsMethods, LoginLocators):
 
     def __complete_username__(self, username: str):
         self.fill_element(self.USERNAME_FIELD, username)
