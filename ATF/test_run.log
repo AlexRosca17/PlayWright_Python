@@ -1,6 +1,0 @@
-2026-05-20 01:18:57,169 - [19892] - INFO - Navigated to https://demoqa.com/
-2026-05-20 01:18:57,171 - [19892] - INFO - Clicking element: (//*[@class='card-body'])[6]
-2026-05-20 01:18:57,482 - [19892] - INFO - Clicking element: //*[@id='login']
-2026-05-20 01:18:57,843 - [19892] - INFO - Filling element: [id='userName'] with value: user_886e88b7
-2026-05-20 01:18:57,967 - [19892] - INFO - Filling element: [id='password'] with value: Test123!@
-2026-05-20 01:18:57,992 - [19892] - INFO - Clicking element: [id='login']
